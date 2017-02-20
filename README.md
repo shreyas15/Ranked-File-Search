@@ -1,5 +1,6 @@
 # Ranked-File-Search
 Information retrieval (IR) is concerned with finding material (e.g., documents) of an unstructured nature (usually text) in response to an information need (e.g., a query) from large collections. One approach to identify relevant documents is to compute scores based on the matches between terms in the query and terms in the documents. For example, a document with words such as ball ​ , team ​ , score ​ , championship ​  is likely to be about sports. It is helpful to define a weight for each term in a document that can be meaningful for computing such a score. I use popular information retrieval metrics such as term frequency, inverse document frequency, and their product, term frequency-inverse document frequency (TF-IDF), that are used to define weights for terms.
+
 Term Frequency: 
 Term frequency is the number of times a particular word t occurs in a document d
 TF(t, d) = No. of times t appears in document d
